@@ -3,12 +3,18 @@ name = "pump-fun-token-launcher"
 version = "0.1.0"
 edition = "2021"
 
+license-file = "LICENSE"
+description = "build pump.fun create token instruction"
+homepage = "https://github.com/ligulfzhou/pump-fun-token-launcher"
+repository = "https://github.com/ligulfzhou/pump-fun-token-launcher"
+readme = "README.md"
+
 [dependencies]
 solana-client = "1.18.16"
 solana-sdk = "1.18.16"
 anyhow = "1.0"
 anchor-lang = "0.29.0"
-tokio = {version = "1", features = ["full"]}
+tokio = { version = "1", features = ["full"] }
 
 [[example]]
 name = "main"
